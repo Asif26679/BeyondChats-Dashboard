@@ -1,12 +1,32 @@
-# React + Vite
+# BeyondChat - React Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+BeyondChat is a responsive chat interface built with React. It features:
+- A sidebar navigation with Home and Settings pages.
+- Dynamic chat modal for conversations.
+- AI assistant chatbox that suggests replies based on user messages (simulated).
+- Profile pictures with online/offline status indicators.
+- Dark mode support.
+- Responsive design for desktop and mobile.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Chat List:** Searchable chat list showing users, status, and last message.
+- **Chat Modal:** Open chat conversations with message input and auto-scroll.
+- **AI Assistant Chatbox:** Displays AI-generated suggestions for replies.
+- **Sidebar Navigation:** Using `react-router-dom` for page routing.
+- **Settings Page:** Placeholder for user preferences.
+- **Profile Pictures:** Shows user avatars with online/offline badges.
+- **Dark Mode:** Toggle support for light and dark themes.
+- **Responsive:** Works on desktop and mobile devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/beyondchat.git
+   cd beyondchat
